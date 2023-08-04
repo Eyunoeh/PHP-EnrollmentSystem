@@ -1,0 +1,36 @@
+.tab-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+}
+.nav-link{
+    font-size: 30px;
+    color: rgb(43, 43, 43);
+    margin-bottom: 15px;
+}
+body{
+    background-color: #e8e7e7;
+}
+.w3-card-4{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+}
+.btn-success{
+    font-size: 30px;
+}
+.a{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.scrollable-table {
+    height: 550px;
+    overflow-y: auto;
+}
